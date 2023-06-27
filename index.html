@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <section id="form" class="min-h-screen bg-gray-300 py-40">
+      <div class="container mx-auto">
+        <!--กล่องที่จะมี2 ส่วน-->
+        <div
+          class="flex w-8/12 bg-white rounded-xl mx-auto shadow-lg overflow-hidden"
+        >
+          <!--ส่วนที่1-->
+          <div class="w-1/2 py-16 px-12">
+            <h2 class="text-3xl mb-4">Welcome</h2>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <form>
+              <div>
+                <button class="w-full text-center bg-blue-500 rounded-lg text-white py-3">Log in with google</button>
+              </div>
+
+              <div class="mt-5">
+                <input type="email" placeholder="Email" class="border border-gray-400 w-full py-1 px-2 " />
+              </div>
+
+              <div class="mt-5">
+                <input type="password" placeholder="Password" class="border border-gray-400 w-full py-1 px-2 "/>
+              </div>
+
+              <div class="mt-5">
+                <input type="checkbox" />
+                <span>remember for 30 days</span>
+              </div>
+
+              <div class="mt-5">
+                <button class="text-center w-full bg-black text-white py-3 rounded-lg">Log in</button>
+              </div>
+
+              <div class="mt-5">
+                <p>Don't have an account? <a href="#" class="text-purple-500">Sign up for free</a></p>
+              </div>
+            </form>
+          </div>
+          <!--ส่วนที่2-->
+          <div
+            class="text-white flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover w-1/2 bg-[url(https://images.unsplash.com/photo-1560809451-9e77c2e8214a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80)]"
+          >
+            <h1 class="text-3xl">Welcome</h1>
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam atque sunt nemo qui quod voluptate sequi. Eaque
+                maiores quis veritatis!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
